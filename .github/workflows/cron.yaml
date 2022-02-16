@@ -1,8 +1,8 @@
 name: Cron Example
 
 on:
-  schedule:
-    - cron:  "0 5 * * *" # Run daily at 05:00 UTC
+  # schedule:
+  #   - cron:  "0 5 * * *" # Run daily at 05:00 UTC
   workflow_dispatch:
 
 jobs:
