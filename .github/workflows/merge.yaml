@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  unit-test:
+  merge:
     runs-on: ubuntu-latest
 
     defaults:
@@ -26,6 +26,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           cache: 'npm'
+          cache-dependency-path: 'typescript-project/yarn.lock'
 
       - name: Install yarn
         run: npm install --global yarn

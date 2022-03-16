@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  unit-test:
+  pull-request:
     runs-on: ubuntu-latest
 
     defaults:

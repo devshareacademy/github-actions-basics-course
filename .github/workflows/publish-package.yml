@@ -21,9 +21,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.MAVEN_CI_REPO_READ_TOKEN }}
 
       - name: Setup Node.js 16
         uses: actions/setup-node@v2
