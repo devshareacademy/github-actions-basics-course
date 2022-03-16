@@ -1,0 +1,43 @@
+name: Pull Request Example
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - typescript-project/**
+  workflow_dispatch:
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: cron-example
+
+    strategy:
+      fail-fast: true
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          cache: 'npm'
+
+      - name: Install yarn
+        run: npm install --global yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run linting
+        run: yarn lint
+
+      - name: Build project
+        run: yarn build
+
+      - name: Run tests
+        run: yarn test
