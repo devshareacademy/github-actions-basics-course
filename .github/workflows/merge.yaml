@@ -1,7 +1,7 @@
-name: Pull Request Example
+name: Merge Example
 
 on:
-  pull_request:
+  push:
     branches:
       - main
     paths:
@@ -41,3 +41,10 @@ jobs:
 
       - name: Run tests
         run: yarn test
+
+      - run: git config user.email "scottwestover2006@gmail.com"
+      - run: git config user.name "@github-ci"
+      - run: yarn version --patch --message "Bump version to %s"
+
+      - run: git push
+      - run: git push --follow-tags
