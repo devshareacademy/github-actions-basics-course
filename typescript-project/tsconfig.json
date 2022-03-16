@@ -1,0 +1,22 @@
+{
+	"extends": "@devshareacademy/tsconfig/tsconfig.json",
+	"compilerOptions": {
+		"outDir": "dist",
+		"types": [
+			"node",
+			"jest"
+		],
+		"typeRoots": [
+      "node_modules/@types"
+    ]
+	},
+	"include": [
+		"**/*.ts",
+		"spec/**/*.ts"
+	],
+	"ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
