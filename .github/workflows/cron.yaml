@@ -1,8 +1,8 @@
 name: Cron Example
 
 on:
-  schedule:
-    - cron: "* * * * *"
+  # schedule:
+  #   - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
