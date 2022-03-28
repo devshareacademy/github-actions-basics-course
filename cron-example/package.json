@@ -1,0 +1,15 @@
+{
+  "name": "cron-example",
+  "version": "1.0.0",
+  "description": "example code for running integration tests on a cron",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "author": "Scott Westover",
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/cucumber": "7.3.2",
+    "pactum": "3.1.3"
+  }
+}
