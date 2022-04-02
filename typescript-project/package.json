@@ -1,0 +1,63 @@
+{
+	"name": "@devshareacademy/typescript-snowpack-template",
+	"version": "0.0.5",
+	"description": "A basic Typescript web app project template that uses Snowpack.",
+	"scripts": {
+		"init:snowpack": "snowpack init",
+		"start": "snowpack dev --config ./config/snowpack.config.js",
+		"build": "snowpack build --config ./config/snowpack.config.js",
+		"lint": "eslint ./src --ext .ts,.tsx --config ./config/.eslintrc",
+		"version": "auto-changelog -p && git add CHANGELOG.md",
+		"test": "echo 'skip'"
+	},
+	"author": "scottwestover",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/devshareacademy/typescript-snowpack-template.git"
+	},
+	"homepage": "https://github.com/devshareacademy/typescript-snowpack-template",
+	"devDependencies": {
+		"@types/jest": "27.0.1",
+		"@typescript-eslint/eslint-plugin": "4.31.0",
+		"@typescript-eslint/parser": "4.31.0",
+		"auto-changelog": "2.3.0",
+		"eslint": "7.32.0",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-plugin-prettier": "4.0.0",
+		"jest": "27.1.0",
+		"prettier": "2.4.0",
+		"snowpack": "3.8.3",
+		"ts-jest": "27.0.5",
+		"typescript": "4.3.5"
+	},
+	"dependencies": {},
+	"resolutions": {},
+	"volta": {
+		"node": "16.9.0",
+		"yarn": "1.22.11"
+	},
+	"jest": {
+		"testEnvironment": "node",
+		"collectCoverageFrom": [
+			"src/**/*.ts"
+		],
+		"collectCoverage": false,
+		"coverageDirectory": "coverage",
+		"transform": {
+			"^.+\\.tsx?$": "ts-jest"
+		},
+		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+		"moduleFileExtensions": [
+			"ts",
+			"js",
+			"json",
+			"node"
+		]
+	},
+	"auto-changelog": {
+		"template": "config/changelog-template.hbs",
+		"unreleased": true,
+		"commitLimit": false
+	}
+}
