@@ -37,7 +37,7 @@ jobs:
       - name: publish to github
         run: |
           npm config set registry https://npm.pkg.github.com
-          npm set //npm.pkg.github.com/:_authToken ${{ NPM_TOKEN }}
+          npm set //npm.pkg.github.com/:_authToken ${{ env.NODE_AUTH_TOKEN }}
           npm run publish:github
         env:
-          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
