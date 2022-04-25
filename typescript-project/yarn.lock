@@ -309,21 +309,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@devshareacademy/eslint-config@0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@devshareacademy/eslint-config/-/eslint-config-0.0.16.tgz#69576336cdce7732c3b448dd58b5924f7ee3e745"
-  integrity sha512-PBksu/4/kNFyqwILgSFXZ4E6g1Sfo7MiA4dnU01KN+M9wpKU1/WdGsbRBufrle4aAromlFeStAItqKEAEmr16g==
-
-"@devshareacademy/prettier-config@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@devshareacademy/prettier-config/-/prettier-config-0.0.4.tgz#661d42cd61c49ac34e3df33590583374efb99739"
-  integrity sha512-TlaghodFMwXX/6+x+Lq6jwOIU6dDgVDO8IiOCxyHfhFI1OgI1tBdG0QvM/96MzrqCaXdAaNUSVZXVVLJL/FHlQ==
-
-"@devshareacademy/tsconfig@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@devshareacademy/tsconfig/-/tsconfig-0.0.2.tgz#f9c13dd43b2bda5b1c4e2b237808a41eae105d56"
-  integrity sha512-zrV7NbciyDDT/+z7IXijCORmBTL7SV6Ms4mc4gBSJ+j6PjalAlK1mOPuEwepiqu9Lw9VEDMGOY0QiA/6qqElag==
-
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -3788,9 +3773,9 @@ ms@^2.0.0:
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
 nanoid@^3.1.30:
-  version "3.1.30"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
-  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.3.tgz#fd8e8b7aa761fe807dba2d1b98fb7241bb724a25"
+  integrity sha512-p1sjXuopFs0xg+fPASzQ28agW1oHD7xDsd9Xkf3T15H3c/cifrFHVwrh74PdoklAPi+i7MdRsE47vm2r6JoB+w==
 
 natural-compare@^1.4.0:
   version "1.4.0"
