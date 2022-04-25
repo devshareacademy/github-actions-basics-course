@@ -1,10 +1,10 @@
-name: Shared Actions Example
+name: Secret Example
 
 on:
   workflow_dispatch:
 
 jobs:
-  checkout-repo:
+  test-secret:
     runs-on: ubuntu-latest
 
     steps:
