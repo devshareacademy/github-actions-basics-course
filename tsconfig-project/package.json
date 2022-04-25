@@ -1,6 +1,6 @@
 {
-	"name": "@devshareacademy/tsconfig-example",
-	"version": "0.0.7",
+	"name": "@scottwestover/tsconfig-example",
+	"version": "0.0.1",
 	"description": "Shared TypeScript config for my projects",
 	"license": "MIT",
 	"repository": {
