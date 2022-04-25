@@ -1,0 +1,16 @@
+name: Shared Actions Example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  checkout-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test Secret
+        run: |
+          echo "The GitHub Action Secret will be masked:  "
+          echo ${{ secrets.TEST_SECRET }}
+          echo "Trick to echo GitHub Actions Secret:  "
+          echo ${{secrets.TEST_SECRET}} | sed 's/./& /g'
