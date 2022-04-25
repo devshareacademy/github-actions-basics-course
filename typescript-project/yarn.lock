@@ -309,21 +309,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@devshareacademy/eslint-config@0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@devshareacademy/eslint-config/-/eslint-config-0.0.16.tgz#69576336cdce7732c3b448dd58b5924f7ee3e745"
-  integrity sha512-PBksu/4/kNFyqwILgSFXZ4E6g1Sfo7MiA4dnU01KN+M9wpKU1/WdGsbRBufrle4aAromlFeStAItqKEAEmr16g==
-
-"@devshareacademy/prettier-config@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@devshareacademy/prettier-config/-/prettier-config-0.0.4.tgz#661d42cd61c49ac34e3df33590583374efb99739"
-  integrity sha512-TlaghodFMwXX/6+x+Lq6jwOIU6dDgVDO8IiOCxyHfhFI1OgI1tBdG0QvM/96MzrqCaXdAaNUSVZXVVLJL/FHlQ==
-
-"@devshareacademy/tsconfig@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@devshareacademy/tsconfig/-/tsconfig-0.0.2.tgz#f9c13dd43b2bda5b1c4e2b237808a41eae105d56"
-  integrity sha512-zrV7NbciyDDT/+z7IXijCORmBTL7SV6Ms4mc4gBSJ+j6PjalAlK1mOPuEwepiqu9Lw9VEDMGOY0QiA/6qqElag==
-
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -3808,9 +3793,9 @@ neo-async@^2.6.0:
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
 node-fetch@^2.6.0:
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
-  integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
   dependencies:
     whatwg-url "^5.0.0"
 
