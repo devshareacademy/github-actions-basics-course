@@ -1,17 +1,17 @@
 {
-	"name": "@scottwestover/tsconfig-example",
+	"name": "@devshareacademy/tsconfig-example",
 	"version": "0.0.1",
 	"description": "Shared TypeScript config for my projects",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/scottwestover/github-actions-basics-course.git",
+		"url": "git+https://github.com/devshareacademy/github-actions-basics-course.git",
 		"directory": "packages/tsconfig-example"
 	},
 	"bugs": {
-    "url": "https://github.com/scottwestover/github-actions-basics-course/issues"
+    "url": "https://github.com/devshareacademy/github-actions-basics-course/issues"
   },
-  "homepage": "https://github.com/scottwestover/github-actions-basics-course/tsconfig-project/#readme",
+  "homepage": "https://github.com/devshareacademy/github-actions-basics-course/tsconfig-project/#readme",
 	"author": {
 		"name": "Scott Westover",
 		"email": "scottwestover2006@gmail.com"
