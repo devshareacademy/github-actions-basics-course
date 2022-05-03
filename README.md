@@ -6,6 +6,7 @@ This repository contains all of the code that was in the `Introduction to GitHub
 
 * [Course Videos](#course-videos)
 * [Course Content](#course-content)
+  * [Course Projects](#course-projects)
 * [Feedback, Suggestions, Issues, and Questions](#feedback-suggestions-issues-and-questions)
 * [Other Courses](#other-courses)
   * [Introduction To JavaScript](#introduction-to-javascript)
@@ -59,6 +60,10 @@ Here is the list of branches and the videos they correspond to:
   * Starting Branch: [7_secrets_start](https://github.com/devshareacademy/github-actions-basics-course/tree/7_secrets_start)
   * Ending Branch: [7_secrets_end](https://github.com/devshareacademy/github-actions-basics-course/tree/7_secrets_end)
 * Part 12: Conclusion (N/A)
+
+### Course Projects
+
+In this course, there are 3 sub projects that are used for demonstration purposes for setting up various workflows. In this course, we don't do a deep dive into these 3 projects. For more details on these projects, please see the readme files in each of the project folders.
 
 ## Feedback, Suggestions, Issues, and Questions
 
