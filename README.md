@@ -33,42 +33,32 @@ In this repository, there is a `start` and `end` branch that contains all of the
 
 Here is the list of branches and the videos they correspond to:
 
-* Part 1: Introduction
-  * Starting Branch: TBD
-  * Ending Branch: TBD
-* Part 2: GitHub Actions & Workflows
-  * Starting Branch: TBD
-  * Ending Branch: TBD
-* Part 3: Core Concepts
-  * Starting Branch: TBD
-  * Ending Branch: TBD
-* Part 4: Setup
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+* Part 1: Introduction (N/A)
+* Part 2: GitHub Actions & Workflows (N/A)
+* Part 3: Core Concepts (N/A)
+* Part 4: Setup - [0_course_start](https://github.com/devshareacademy/github-actions-basics-course/tree/0_course_start)
 * Part 5: Hello World Workflow
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [1_hello_world_start](https://github.com/devshareacademy/github-actions-basics-course/tree/1_hello_world_start)
+  * Ending Branch: [1_hello_world_end](https://github.com/devshareacademy/github-actions-basics-course/tree/1_hello_world_end)
 * Part 6: GitHub Marketplace
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [2_shared_actions_start](https://github.com/devshareacademy/github-actions-basics-course/tree/2_shared_actions_start)
+  * Ending Branch: [2_shared_actions_end](https://github.com/devshareacademy/github-actions-basics-course/tree/2_shared_actions_end)
 * Part 7: Integration Test And CRON Workflow
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [3_cron_example_start](https://github.com/devshareacademy/github-actions-basics-course/tree/3_cron_example_start)
+  * Ending Branch: [3_cron_example_end](https://github.com/devshareacademy/github-actions-basics-course/tree/3_cron_example_end)
 * Part 8: Pull Request Workflow
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [4_pull_request_start](https://github.com/devshareacademy/github-actions-basics-course/tree/4_pull_request_start)
+  * Ending Branch: [4_pull_request_end](https://github.com/devshareacademy/github-actions-basics-course/tree/4_pull_request_end)
 * Part 9: Push Workflow
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [5_push_workflow_start](https://github.com/devshareacademy/github-actions-basics-course/tree/5_push_workflow_start)
+  * Ending Branch: [5_push_workflow_end](https://github.com/devshareacademy/github-actions-basics-course/tree/5_push_workflow_end)
 * Part 10: GitHub NPM Publish Workflow
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [6_npm_workflow_start](https://github.com/devshareacademy/github-actions-basics-course/tree/6_npm_workflow_start)
+  * Ending Branch: [6_npm_workflow_end](https://github.com/devshareacademy/github-actions-basics-course/tree/6_npm_workflow_end)
 * Part 11: GitHub Secrets
-  * Starting Branch: TBD
-  * Ending Branch: TBD
-* Part 12: Conclusion
-  * Starting Branch: TBD
-  * Ending Branch: TBD
+  * Starting Branch: [7_secrets_start](https://github.com/devshareacademy/github-actions-basics-course/tree/7_secrets_start)
+  * Ending Branch: [7_secrets_end](https://github.com/devshareacademy/github-actions-basics-course/tree/7_secrets_end)
+* Part 12: Conclusion (N/A)
 
 ## Feedback, Suggestions, Issues, and Questions
 
