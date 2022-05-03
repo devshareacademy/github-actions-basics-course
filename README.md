@@ -2,10 +2,28 @@
 
 This repository contains all of the code that was in the `Introduction to GitHub Actions` mini course that I created. The course is free and is hosted on YouTube here:
 
+## Table of Contents
+
+* [Course Videos](#course-videos)
+* [Course Content](#course-content)
+* [Feedback, Suggestions, Issues, and Questions](#feedback-suggestions-issues-and-questions)
+* [Other Courses](#other-courses)
+  * [Introduction To JavaScript](#introduction-to-javascript)
+
 ## Course Videos
 
-List here...
-
+* Part 1: Introduction - Coming soon...
+* Part 2: GitHub Actions & Workflows - Coming soon...
+* Part 3: Core Concepts - Coming soon...
+* Part 4: Setup - Coming soon...
+* Part 5: Hello World Workflow - Coming soon...
+* Part 6: GitHub Marketplace - Coming soon...
+* Part 7: Integration Test And CRON Workflow - Coming soon...
+* Part 8: Pull Request Workflow - Coming soon...
+* Part 9: Push Workflow - Coming soon...
+* Part 10: GitHub NPM Publish Workflow - Coming soon...
+* Part 11: GitHub Secrets - Coming soon...
+* Part 12: Conclusion - Coming soon...
 
 ## Course Content
 
@@ -15,9 +33,44 @@ In this repository, there is a `start` and `end` branch that contains all of the
 
 Here is the list of branches and the videos they correspond to:
 
-List here...
+* Part 1: Introduction
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 2: GitHub Actions & Workflows
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 3: Core Concepts
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 4: Setup
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 5: Hello World Workflow
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 6: GitHub Marketplace
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 7: Integration Test And CRON Workflow
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 8: Pull Request Workflow
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 9: Push Workflow
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 10: GitHub NPM Publish Workflow
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 11: GitHub Secrets
+  * Starting Branch: TBD
+  * Ending Branch: TBD
+* Part 12: Conclusion
+  * Starting Branch: TBD
+  * Ending Branch: TBD
 
-## Feedback, Suggestions, Issues, etc.
+## Feedback, Suggestions, Issues, and Questions
 
 For any course feedback, suggestions, issues, or questions, please feel free to start a new discussion here: [GitHub Discussions](https://github.com/devshareacademy/github-actions-basics-course/discussions).
 
