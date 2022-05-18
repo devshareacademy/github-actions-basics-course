@@ -39,6 +39,8 @@ jobs:
         env:
           CI: true
 
+      - run: ls
+
       - name: Deploy
         uses: josephbmanley/butler-publish-itchio-action@v1.0.3
         env:
