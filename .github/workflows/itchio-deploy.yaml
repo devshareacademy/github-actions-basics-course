@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: "16.x"
           cache: 'npm'
+          cache-dependency-path: tic-tac-toe-project/yarn.lock
         env:
           CI: true
 
