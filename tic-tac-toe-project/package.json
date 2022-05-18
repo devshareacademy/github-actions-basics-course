@@ -5,7 +5,8 @@
 	"scripts": {
 		"start": "vite --config config/vite.config.js",
 		"build": "tsc && vite build --config config/vite.config.js",
-		"serve": "vite preview --config config/vite.config.js"
+		"serve": "vite preview --config config/vite.config.js",
+		"deploy": "butler push dist galemius/github-actions-tic-tac-toe-example:html"
 	},
 	"author": "scottwestover",
 	"license": "MIT",
