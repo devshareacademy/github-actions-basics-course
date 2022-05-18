@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  docker-build:
+  itchio-deploy:
     runs-on: ubuntu-latest
 
     defaults:
@@ -42,7 +42,8 @@ jobs:
       - run: ls
 
       - name: Deploy
-        uses: josephbmanley/butler-publish-itchio-action@v1.0.3
+        #uses: josephbmanley/butler-publish-itchio-action@v1.0.3
+        uses: scottwestover/butler-publish-itchio-action@master
         env:
           BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
           CHANNEL: HTML
