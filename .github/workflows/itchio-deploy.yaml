@@ -50,4 +50,4 @@ jobs:
           ITCH_GAME: github-actions-tic-tac-toe-example
           ITCH_USER: galemius
           PACKAGE: dist
-        working-directory: tic-tac-toe-project
+          DIRECTORY: tic-tac-toe-project
