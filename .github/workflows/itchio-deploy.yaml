@@ -44,6 +44,6 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
           CHANNEL: HTML
-          ITCH_GAME: github-actions-example-tic-tac-toe
+          ITCH_GAME: github-actions-tic-tac-toe-example
           ITCH_USER: galemius
           PACKAGE: dist
