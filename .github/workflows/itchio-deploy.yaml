@@ -42,12 +42,10 @@ jobs:
       - run: ls
 
       - name: Deploy
-        #uses: josephbmanley/butler-publish-itchio-action@v1.0.3
-        uses: scottwestover/butler-publish-itchio-action@master
+        uses: josephbmanley/butler-publish-itchio-action@v1.0.3
         env:
           BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
           CHANNEL: HTML
           ITCH_GAME: github-actions-tic-tac-toe-example
           ITCH_USER: galemius
-          PACKAGE: dist
-          DIRECTORY: tic-tac-toe-project
+          PACKAGE: tic-tac-toe-project/dist
