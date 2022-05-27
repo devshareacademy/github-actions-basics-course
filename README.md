@@ -26,6 +26,10 @@ This repository contains all of the code that was in the `Introduction to GitHub
 * Part 11: [GitHub Secrets](https://youtu.be/nmWLoSBOlJM)
 * Part 12: [Conclusion](https://youtu.be/5-EFvnLC0FQ)
 
+### Bonus Videos
+
+* [Publish Content To Itch.io Workflow](#TODO)
+
 ## Course Content
 
 To best follow along with this course, it is recommended that you fork or clone the repository. In the Setup course video, there is instructions on how fork the repository so you can follow along.
@@ -60,6 +64,14 @@ Here is the list of branches and the videos they correspond to:
   * Starting Branch: [7_secrets_start](https://github.com/devshareacademy/github-actions-basics-course/tree/7_secrets_start)
   * Ending Branch: [7_secrets_end](https://github.com/devshareacademy/github-actions-basics-course/tree/7_secrets_end)
 * Part 12: Conclusion (N/A)
+
+### Bonus Content
+
+Here is the list of branches for the bonus content and the videos they correspond to:
+
+* Bonus 1: Publish Content To Itch.io Workflow
+  * Starting Branch: [8_itchio_start](https://github.com/devshareacademy/github-actions-basics-course/tree/8_itchio_start)
+  * Ending Branch: [8_itchio_end](https://github.com/devshareacademy/github-actions-basics-course/tree/8_itchio_end)
 
 ### Course Projects
 
