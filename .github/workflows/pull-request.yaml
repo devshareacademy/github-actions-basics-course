@@ -2,14 +2,15 @@ name: Pull Request Example
 
 on:
   pull_request:
+    types:
+      - closed
     branches:
       - main
-    paths:
-      - typescript-project/**
-  workflow_dispatch:
+      
 
 jobs:
-  pull-request:
+  if_merged:
+    if: github.event.pull_request.merged == true:
     runs-on: ubuntu-latest
 
     defaults:
