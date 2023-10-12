@@ -1,0 +1,42 @@
+name: Pull request example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  pull-request:
+    runs-on: ububntu-latest
+
+    defaults:
+      run:
+        working-directory: typescript-project
+      
+    steps:
+      - uses: actions/checkout@v2
+
+      # Setup Node js
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+          cache: 'npm'
+
+      # Install Yarn
+      - name: Install Yarn
+        run: npm install --global yarn
+
+      # Install dependencies
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      # Run Linting
+      - name: Run Linting
+        run: yarn lint
+
+      # Compile the code
+      - name: Build project
+        run: yarn build
+
+      # Run tests
+      - name: Run tests
+        run: yarn test
