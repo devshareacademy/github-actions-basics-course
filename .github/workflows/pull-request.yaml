@@ -5,7 +5,7 @@ on:
 
 jobs:
   pull-request:
-    runs-on: ububntu-latest
+    runs-on: ubuntu-latest
 
     defaults:
       run:
