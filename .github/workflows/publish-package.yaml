@@ -1,0 +1,43 @@
+name: Publish GitHub NPM Package
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - tsconfig-project/**
+  workflow_dispatch:
+
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: tsconfig-project
+
+    strategy:
+      fail-fast: true
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+
+      - run: git config user.email "scottwestover2006@gmail.com"
+      - run: git config user.name "@github-ci"
+      - run: yarn version --patch --message "Bump version to %s"
+
+      - run: git push
+      - run: git push --follow-tags
+
+      - name: publish to github
+        run: |
+          npm config set registry https://npm.pkg.github.com
+          npm set //npm.pkg.github.com/:_authToken ${{ env.NODE_AUTH_TOKEN }}
+          npm run publish:github
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,28 @@
+{
+	"name": "@devshareacademy/tic-tac-toe-project",
+	"version": "0.0.1",
+	"description": "A basic Tic Tac Toe game that was built with Phaser.",
+	"scripts": {
+		"start": "vite --config config/vite.config.js",
+		"build": "tsc && vite build --config config/vite.config.js",
+		"serve": "vite preview --config config/vite.config.js",
+		"deploy": "butler push dist galemius/github-actions-tic-tac-toe-example:html"
+	},
+	"author": "scottwestover",
+	"license": "MIT",
+	"devDependencies": {
+		"@devshareacademy/tsconfig": "0.0.3",
+		"@types/jest": "27.5.0",
+		"jest": "28.0.3",
+		"ts-jest": "28.0.1",
+		"typescript": "4.6.4",
+		"vite": "2.9.8"
+	},
+	"dependencies": {
+		"phaser": "3.55.2"
+	},
+	"volta": {
+		"node": "16.15.0",
+		"yarn": "1.22.11"
+	}
+}

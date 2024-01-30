@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"lib": ["DOM", "ES2016", "ESNext", "ScriptHost"],
+		"target": "ESNext",
+		"module": "ESNext",
+		"strict": true,
+		"noImplicitAny": false,
+		"noEmit": false,
+		"allowJs": true,
+		"jsx": "preserve",
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true,
+		"sourceMap": true,
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"types": []
+	}
+}
