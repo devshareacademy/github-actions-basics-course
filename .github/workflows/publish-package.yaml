@@ -1,12 +1,12 @@
-name: Publish GitHub NPM Package
+concurrency: name: Publish GitHub NPM Package
 
 on:
   push:
     branches:
       - main
     paths:
-      - tsconfig-project/**
-  workflow_dispatch:
+      - tsconfig-project/** 
+  workflow_dispatch: 
 
 jobs:
   npm-publish:
@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: "16.x"
 
-      - run: git config user.email "scottwestover2006@gmail.com"
-      - run: git config user.name "@github-ci"
+      - run: git config user.email "sai.siddharth@gmail.com"
+      - run: git config user.name "siddhartha082"
       - run: yarn version --patch --message "Bump version to %s"
 
       - run: git push
@@ -40,4 +40,4 @@ jobs:
           npm set //npm.pkg.github.com/:_authToken ${{ env.NODE_AUTH_TOKEN }}
           npm run publish:github
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.XGITHUB_TOKEN }}

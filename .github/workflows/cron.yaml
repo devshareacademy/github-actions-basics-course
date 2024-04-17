@@ -11,7 +11,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: cron-example
+        working-directory: cron-example 
 
     steps:
       - uses: actions/checkout@v2
