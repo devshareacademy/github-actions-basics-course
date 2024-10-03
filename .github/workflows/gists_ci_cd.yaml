@@ -1,0 +1,77 @@
+#Set env vars syntax
+#Check for branch and select env depending upon it
+# might need to install docker
+#docker build , docker tag
+#push to dockerhub
+#if we push to dockerhub
+ # different jobs to build and deploy
+ # even different workflows to build and tag
+ #different workflow to deploy with mentioned version
+
+#different variables
+
+
+name: 'Github Gists API'
+on:
+  workflow_dispatch:
+  push:
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./solution
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout code"
+        uses: actions/checkout@v2
+
+      - name: "Install Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: "Install Python dependencies"
+        run: |
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: "Run unit tests"
+        run: pytest .
+
+      - name: "Build docker image"
+        run: docker build -t gists-api-server .
+
+      - name: "Deploy docker image"
+        run: docker run -d -p 8080:8080 gists-api-server
+
+      - name: "Sanity test Webserver"
+        run: 'curl "http://localhost:8080/octocat?page=2&per_page=5"'
+
+
+
+  # deploy:
+  #   needs: build
+
+  #   runs-on : ubuntu-latest
+
+  #   steps:
+
+  #     - name: "Deploy gists webapp"
+  #       run: docker run -d -p 8080:8080 gists-api-server
+
+  #     - name: "Sanity test"
+  #       run: curl -v http://localhost:8080/octocat
+
+
+
+
+
+
+
+
+
+        
