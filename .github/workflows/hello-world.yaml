@@ -1,0 +1,13 @@
+name: Hello ci cd world
+
+on: 
+  workflow_dispatch:
+
+jobs: 
+  print-hello-cicd-world:
+    runs-on: ubuntu-latest 
+
+    steps: 
+      - name: Say ci cd hello 
+        run: echo "Hello ci cd world"
+
