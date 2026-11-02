@@ -48,8 +48,8 @@ jobs:
       - name: Run tests
         run: yarn test
 
-      - run: git config user.email "me@example.com"
-      - run: git config user.name "My Name"
+      - run: git config user.email "kennyagz681@gmail.com"
+      - run: git config user.name "Ken Nyaga"
       - run: yarn version --patch --message "Bump version to %s"
 
       - run: git push
