@@ -1,15 +1,16 @@
-name: Pull Request Example
+name: Pull request example
 
 on:
   pull_request:
     branches:
       - main
+      - practice
     paths:
       - typescript-project/**
   workflow_dispatch:
 
 jobs:
-  pull-request:
+  pull_request:
     runs-on: ubuntu-latest
 
     defaults:
@@ -17,21 +18,21 @@ jobs:
         working-directory: typescript-project
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-      # Setup Nodejs
-      - name: Setup Node.js 16
+      - name: Setup Nodejs
         uses: actions/setup-node@v2
         with:
           node-version: "16.x"
-          cache: 'npm'
-          cache-dependency-path: typescript-project/yarn.lock
+          #cache: 'npm'
+          #cache-dependency-path: typescript-project/yarn.lock
 
-      # Install Yarn
-      - name: Install Yarn
+      #Install yarn
+      - name: Install yarn
         run: npm install --global yarn
 
-      # Install libraries
+      # Install dependencies
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
@@ -39,7 +40,7 @@ jobs:
       - name: Run linting
         run: yarn lint
 
-      # Compile the code
+      # compile code
       - name: Build project
         run: yarn build
 

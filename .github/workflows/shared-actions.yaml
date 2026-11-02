@@ -1,4 +1,4 @@
-name: Shared Actions Example
+name: Shared Actions example
 
 on:
   workflow_dispatch:
@@ -9,5 +9,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+        #with: 
       - run: ls
