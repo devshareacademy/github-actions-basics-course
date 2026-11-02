@@ -6,7 +6,7 @@ on:
       - main
       - practice
     paths:
-      - tpyescript-project/**
+      - typescript-project/**
   workflow_dispatch:
 
 jobs:
