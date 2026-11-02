@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - practice
+      
     paths:
       - typescript-project/**
   workflow_dispatch:
