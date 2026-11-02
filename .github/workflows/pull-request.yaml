@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - practice
     paths:
       - tpyescript-project/**
   workflow_dispatch:
