@@ -1,5 +1,5 @@
 name: Merge PR example
-
+###
 on:
   push:
     branches:
